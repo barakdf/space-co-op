@@ -7,6 +7,8 @@ public class ShieldThePlayer : MonoBehaviour {
     [Tooltip("The number of seconds that the shield remains active")] [SerializeField] float duration;
     [SerializeField] shieldActivation playerOneShield;
 
+        [SerializeField] CircleAnim shieldTimer;
+
     private void Start() {
         this.shield = true;
     }
@@ -35,6 +37,7 @@ public class ShieldThePlayer : MonoBehaviour {
     // private async void ShieldTemporarily(DestroyOnTrigger2D destroyComponent) {      // async-await
         destroyComponent.enabled = false;
         playerOneShield.SetShield(true);
+        shieldTimer.resetCircle();
         for (float i = duration; i > 0; i--) {
             Debug.Log("Shield: " + i + " seconds remaining!");
             yield return new WaitForSeconds(1);       // co-routines
@@ -48,6 +51,7 @@ public class ShieldThePlayer : MonoBehaviour {
             yield return new WaitForSeconds(1);       // co-routines
             // await Task.Delay(1000);                // async-await
         }
+        shieldTimer.SetCircleColor(true);
         this.shield = true;
     }
 }
