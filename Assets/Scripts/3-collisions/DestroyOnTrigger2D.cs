@@ -13,6 +13,8 @@ public class DestroyOnTrigger2D : MonoBehaviour {
         if (other.tag == triggeringTag && enabled) {
             Destroy(this.gameObject);
             Destroy(other.gameObject);
+        } else if(other.tag == "MainCamera" && enabled) {
+            
         }
     }
 

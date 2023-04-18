@@ -7,14 +7,14 @@ public class ShieldThePlayer : MonoBehaviour {
     [Tooltip("The number of seconds that the shield remains active")] [SerializeField] float duration;
     [SerializeField] shieldActivation playerOneShield;
 
-        [SerializeField] CircleAnim shieldTimer;
+    [SerializeField] CircleAnim shieldTimer;
 
     private void Start() {
         this.shield = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "Player" && shield) {
+        if (other.tag == "Player1" && shield) {
             Debug.Log("Shield triggered by player");
             var destroyComponent = other.GetComponent<DestroyOnTrigger2D>();
             // var shieldAnimation = other.GetComponent<SpawnShield>();

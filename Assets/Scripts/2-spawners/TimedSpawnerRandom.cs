@@ -18,14 +18,7 @@ public class TimedSpawnerRandom: MonoBehaviour {
         // _ = SpawnRoutine();                   // async-await
     }
 
-    private void OnBecameVisible() {
-        
-    }
 
-    private void OnBecameInvisible() {
-        Debug.Log("ENEMY INVISIVLE ");
-        Destroy(this.gameObject);
-    }
 
     IEnumerator SpawnRoutine() {    // co-routines
     // async Task SpawnRoutine() {  // async-await
