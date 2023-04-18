@@ -12,9 +12,19 @@ public class TimedSpawnerRandom: MonoBehaviour {
     [Tooltip("Maximum time between consecutive spawns, in seconds")] [SerializeField] float maxTimeBetweenSpawns = 3f;
     [Tooltip("Maximum distance in X between spawner and spawned objects, in meters")] [SerializeField] float maxXDistance = 0.5f;
 
+    
     void Start() {
          this.StartCoroutine(SpawnRoutine());    // co-routines
         // _ = SpawnRoutine();                   // async-await
+    }
+
+    private void OnBecameVisible() {
+        
+    }
+
+    private void OnBecameInvisible() {
+        Debug.Log("ENEMY INVISIVLE ");
+        Destroy(this.gameObject);
     }
 
     IEnumerator SpawnRoutine() {    // co-routines
@@ -22,7 +32,7 @@ public class TimedSpawnerRandom: MonoBehaviour {
         while (true) {
             float timeBetweenSpawnsInSeconds = Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
             int randomIndexPickOfSpawners = (int)Random.Range(0, prefabToSpawn.Length);
-            Debug.Log("current index - " + randomIndexPickOfSpawners);
+            // Debug.Log("current index - " + randomIndexPickOfSpawners);
             yield return new WaitForSeconds(timeBetweenSpawnsInSeconds);       // co-routines
             // await Task.Delay((int)(timeBetweenSpawnsInSeconds*1000));       // async-await
             Vector3 positionOfSpawnedObject = new Vector3(

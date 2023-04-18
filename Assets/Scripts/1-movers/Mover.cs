@@ -9,6 +9,11 @@ public class Mover: MonoBehaviour {
     [Tooltip("Movement vector in meters per second")]
     [SerializeField] Vector3 velocity;
 
+    private void OnBecameInvisible() {
+        Debug.Log("ENEMY INVISIVLE ");
+        Destroy(this.gameObject);
+    }
+    
     void Update() {
         transform.position += velocity * Time.deltaTime;
     }
