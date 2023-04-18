@@ -30,7 +30,7 @@ By hovering over his ally, he has the ability to cast shield on his ally for 5 s
 
 [ShieldThePlayer](Assets/Scripts/3-collisions/ShieldThePlayer.cs) is a component in the support object, which Triggered on collison with the other player, recieving two other components, [ShieldActivation](Assets/Scripts/3-collisions/shieldActivation.cs) for setting shield state, and the [CircleAnimation](Assets/IrregularCircleUI/Scripts/CircleAnimation.cs) for displaying the shield on the player.
 
-The support player have indication time animation for the ability cooldown, switching on colors red/green based on the cooldown state [CircleAnim](Assets/ProudLlama/Circle Generator/Demo/CircleAnim.cs). 
+The support player have indication time animation for the ability cooldown, switching on colors red/green based on the cooldown state [CircleAnim](https://github.com/barakdf/space-co-op/blob/cee9295eaaf48a1fc725319ca9c23af8ba3a458e/Assets/ProudLlama/Circle%20Generator/Demo/CircleAnim.cs) . 
 
 Skill cooldown: 20 seconds.
 
