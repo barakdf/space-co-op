@@ -1,5 +1,5 @@
 # space-co-op
-This project represents a Unity game of 2 spaceships that co-opporate to destroy their ememies and survive.
+This project represents a Unity game of 2 spaceships that cooperate to destroy their enemies and survive.
 
 # Play
 
@@ -19,7 +19,7 @@ To keep the speed - score ratio, the enemy's velocity will be calculated relativ
 Both players contribute to the shared score.
 
 ## The Players
-***In any good fight, partnership is the key to victory!!***
+***In any good fight, the partnership is the key to victory!!***
 
 This game features two types of spaceship heros to choose from, as each one of them has their own unique ability.
 
