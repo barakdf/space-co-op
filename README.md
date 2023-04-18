@@ -19,7 +19,7 @@ To keep the speed - score ratio, the enemy's velocity will be calculated relativ
 Both players contribute to the shared score.
 
 ## The Players
-In every good battle, partership is the key to victory!
+***In any good fight, partnership is the key to victory!!***
 
 This game features two types of spaceship heros to choose from, as each one of them has their own unique ability.
 
@@ -30,11 +30,18 @@ By hovering over his ally, he has the ability to cast shield on his ally for 5 s
 
 [ShieldThePlayer](Assets/Scripts/3-collisions/ShieldThePlayer.cs) is a component in the support object, which Triggered on collison with the other player, recieving two other components, [ShieldActivation](Assets/Scripts/3-collisions/shieldActivation.cs) for setting shield state, and the [CircleAnimation](Assets/IrregularCircleUI/Scripts/CircleAnimation.cs) for displaying the shield on the player.
 
-The support player have indication time animation for the ability cooldown, switching on colors red/green based on the cooldown state &(CircleAnim). 
+The support player have indication time animation for the ability cooldown, switching on colors red/green based on the cooldown state &[CircleAnim](Assets/ProudLlama/Circle Generator/Demo/CircleAnim.cs). 
 
 Skill cooldown: 20 seconds.
 
 ### The Damage Dealer
 
 
+
+# Assets
+[Meteors](https://assetstore.unity.com/packages/2d/gui/icons/hand-painted-icons-102396)
+
+[Shield Animation](https://assetstore.unity.com/packages/tools/gui/irregular-circle-ui-animation-163132)
+
+[Cooldown Indicator](https://assetstore.unity.com/packages/tools/gui/circle-generator-213175)
 
