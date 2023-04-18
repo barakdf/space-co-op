@@ -36,6 +36,10 @@ Skill cooldown: 20 seconds.
 
 ### The Damage Dealer
 
+By pressing Right Control, the damage dealer player will activate his special offence ability, each fire press he will shoot 3 lasers in a fan shape for 5 seconds.
+
+Skill cooldown: 20 seconds.
+
 ### Game Controls
 The controls for the game are as follows:
 
