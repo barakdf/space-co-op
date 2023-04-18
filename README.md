@@ -36,6 +36,8 @@ Skill cooldown: 20 seconds.
 
 ### The Damage Dealer
 
+### Game Controls
+The controls for the game are as follows:
 
 
 # Assets
