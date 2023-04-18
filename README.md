@@ -43,6 +43,19 @@ Skill cooldown: 20 seconds.
 ### Game Controls
 The controls for the game are as follows:
 
+**Support Player**
+
+- W: Move the Player upwards
+- A: Move the Player to the left
+- S: Move the Player downwards
+- D: Move the Player to the right
+
+**Damage Player**
+
+- Arrow UP: Move the Player upwards
+- Arrow LEFT: Move the Player to the lefts
+- Arrow DOWN: Move the Player downwards
+- Arrow Right: Move the Player to the right
 
 # Assets
 [Meteors](https://assetstore.unity.com/packages/2d/gui/icons/hand-painted-icons-102396)
