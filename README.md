@@ -1,8 +1,8 @@
 # space-co-op
-This project represents a Unity game of 2 spaceships that co-opporate to destroy their ememies and survive..
+This project represents a Unity game of 2 spaceships that co-opporate to destroy their ememies and survive.
 ![Alt text](Assets/Screenshots/ScreenShot%20Main.png)
 # Play
-
+[Play on itch.io](https://barakdf.itch.io/space-bros)
 # Features
 ## Diveresed Enemies
 There are currently two types of confrontations, enemies' spaceships and meteors.
