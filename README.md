@@ -37,7 +37,7 @@ Skill cooldown: 20 seconds.
 
 ### The Damage Dealer
 
-By pressing Right Control, the damage dealer player will activate his special offence ability, each fire press he will shoot 3 lasers in a fan shape for 5 seconds.
+By pressing L, the damage dealer player will activate his special offence ability, each fire press he will shoot 3 lasers in a fan shape for 5 seconds.
 ![Alt text](Assets/Screenshots/Screenshot%20Laser.png)
 [UltimateLaser](Assets/Scripts/3-collisions/UltimateLaser.cs) is a component that recieves duration, [IndicationTimer](Assets/ProudLlama/Circle%20Generator/Demo/CircleAnim.cs) and input button for casting the special ability.
 Activating the special ability is handled in [LaserShooter](Assets/Scripts/2-spawners/LaserShooter.cs).
